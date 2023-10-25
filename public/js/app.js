@@ -6,7 +6,7 @@ fetch('http://puzzle.mead.io/puzzle').then((response)=>{
     })
 })
 const weatherForm=document.querySelector('form') // to do things for user interact with elements
-
+console.log("Logggsuebddn");
 weatherForm.addEventListener('submit',(e)=>{
     e.preventDefault()
 console.log('testing!! ')
